@@ -1,0 +1,312 @@
+.supreme_heading h6 {
+    color: var(--green_color);
+    font-weight: 500;
+    font-size: 24px;
+    max-width: 1004px;
+    width: 100%;
+    margin: auto;
+    line-height: 48px;
+}
+
+.supreme_heading {
+    text-align: center;
+}
+
+.supreme_heading p {
+    font-size: 24px;
+    font-weight: 500;
+    color: #808080;
+    padding-top: 24px;
+}
+
+.sub_title {
+    padding-top: 80px;
+}
+
+.sub_title p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #606060;
+    line-height: 42px;
+}
+
+.evulation {
+    padding-top: 110px;
+    position: relative;
+}
+
+.year_section p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    color: #808080;
+
+}
+
+.year_section_number {
+    padding-bottom: 30px;
+}
+
+.year_section_number h6 {
+    color: var(--green_color);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.year_section_number h6::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    background: linear-gradient(90deg, #E7EEB0 0%, rgba(255, 255, 255, 0) 80%);
+    height: 48px;
+    width: 40%;
+    z-index: -1;
+    top: 98px;
+}
+
+.last_type {
+    padding-top: 60px;
+}
+
+.last_type p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    color: #808080;
+    padding-top: 30px;
+}
+
+.last_type {
+    text-align: end;
+}
+
+.last_type_year h6::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    background: linear-gradient(200deg, #E7EEB0 0%, rgba(255, 255, 255, 0) 80%);
+    height: 48px;
+    width: 40%;
+    z-index: -1;
+    top: 42.3%;
+}
+
+.last_type_year h6 {
+    color: var(--green_color);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* .flex_box {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+} */
+
+.flex_box h6 {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--green_color);
+}
+
+.flex_box .hearing_left {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #E7EEB0 75%);
+    padding: 14px 40px;
+}
+
+.flex_box .hearing_right {
+    background: linear-gradient(90deg, #E7EEB0 25%, rgba(255, 255, 255, 0) 100%);
+    padding: 14px 40px;
+}
+
+.link_section {
+    padding-bottom: 40px;
+}
+
+.link_section a {
+    color: #606060;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.refund_money {
+    padding-bottom: 60px;
+}
+
+.refund_money_card {
+    background-color: var(--more_fade_ylw);
+    padding: 40px;
+    border-radius: 6px;
+}
+
+.refund_money_card h6 {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--green_color);
+}
+
+.refund_money_card h6 span {
+    font-weight: 500;
+}
+
+.refund_money_card p {
+    color: #808080;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-top: 40px;
+    font-family: "Inter";
+}
+
+.refund_money_card p span {
+    font-size: 16px;
+}
+
+
+
+@media(max-width: 1600px) {
+    .supreme_heading h6 {
+        font-size: 20px;
+    }
+
+    .supreme_heading p {
+        font-size: 20px;
+    }
+
+    .sub_title p {
+        font-size: 18px;
+        line-height: 36px;
+    }
+
+    .last_type_year h6::after {
+        top: 43.6%;
+    }
+
+    .flex_box h6 {
+        font-size: 18px;
+    }
+
+    .link_section a {
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 920px) {
+    .last_type_year h6::after {
+        top: 38.6%;
+    }
+
+    .flex_box h6 {
+        font-size: 13px;
+    }
+}
+
+@media(max-width: 768px) {
+    .last_type_year h6::after {
+        top: 38.6%;
+    }
+
+    .flex_box h6 {
+        font-size: 13px;
+    }
+}
+
+@media(max-width: 575px) {
+    .supreme_heading h6 {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .supreme_heading p {
+        font-size: 14px;
+        letter-spacing: normal;
+    }
+
+    .sub_title {
+        padding-top: 30px;
+    }
+
+    .sub_title p {
+        font-size: 12px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .year_section p {
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    .year_section_number h6 {
+        font-size: 16px;
+    }
+
+    .evulation {
+        padding-top: 60px;
+    }
+
+    .year_section_number h6::after {
+        top: 45px;
+    }
+
+    .last_type p {
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    .last_type_year h6 {
+        font-size: 16px;
+    }
+
+    .last_type_year h6::after {
+        top: 39.3%;
+    }
+
+    .flex_box h6 {
+        font-size: 14px;
+    }
+
+    .flex_box {
+        display: grid;
+        justify-content: normal;
+    }
+
+    .refund_money_card {
+        padding: 20px;
+    }
+
+    .refund_money_card h6 {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .refund_money_card p {
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    .refund_money_card p span {
+        font-size: 10px;
+    }
+
+    .link_section a {
+        font-size: 12px;
+    }
+
+    .flex_box .hearing_left {
+        background: linear-gradient(200deg, rgba(255, 255, 255, 0) 0%, #E7EEB0 75%);
+        padding: 14px 40px;
+    }
+
+    .flex_box .hearing_right {
+        background: linear-gradient(-80deg, #E7EEB0 25%, rgba(255, 255, 255, 0) 100%);
+        padding: 14px 40px;
+    }
+}
+
+
+@media(max-width: 390px) {
+    .last_type_year h6::after {
+        top: 41.3%;
+    }
+}

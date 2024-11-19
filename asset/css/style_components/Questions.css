@@ -1,0 +1,132 @@
+.heading h6 {
+    font-size: 24px;
+    color: #808080;
+    padding-top: 24px;
+}
+
+
+/* faq_css */
+.under_ul {
+    list-style: auto;
+    padding-left: 10px;
+}
+
+.under_ul li {
+    all: unset;
+    border: unset !important;
+    padding: 0px !important;
+    display: list-item !important;
+}
+
+.flex_box {
+    padding-top: 70px;
+}
+
+ul.accordion-list {
+    position: relative;
+    display: block;
+    gap: 24px;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    list-style: none;
+}
+
+ul.accordion-list li {
+    position: relative;
+    display: block;
+    /* Ensure block behavior within flex container */
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    padding: 20px;
+    margin: 0 auto 15px auto;
+    border: 1px solid var(--fade_yalow);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+ul.accordion-list li h3 {
+    font-weight: 500;
+    position: relative;
+    display: block;
+    color: var(--green_color);
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    letter-spacing: 0.01em;
+    cursor: pointer;
+}
+
+ul.accordion-list li h3:after {
+    content: "\f067";
+    /* Unicode for Font Awesome plus icon */
+    font-family: "FontAwesome";
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: var(--green_color);
+    transition: all 0.3s ease-in-out;
+    font-size: 20px;
+}
+
+ul.accordion-list li.active h3:after {
+    content: "\f068";
+    /* Unicode for Font Awesome minus icon */
+    transform: rotate(0deg);
+}
+
+ul.accordion-list li div.answer {
+    position: relative;
+    display: none;
+    /* Hide initially */
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-top: 30px;
+    cursor: pointer;
+}
+
+ul.accordion-list li div.answer p {
+    position: relative;
+    font-weight: 400;
+    padding: 10px 0 0 0;
+    cursor: pointer;
+    line-height: 150%;
+    margin: 0 0 15px 0;
+    font-size: 16px;
+    color: #808080;
+}
+
+.flex_box {
+    padding-bottom: 60px;
+}
+.grid_bx{
+    display: grid;
+    gap: 32px;
+    justify-content: center;
+}
+@media(max-width: 767px) {
+    ul.accordion-list li h3 {
+        font-size: 12px;
+    }
+
+    ul.accordion-list li h3:after {
+        font-size: 10px;
+    }
+
+    .heading h2 {
+        font-size: 20px;
+    }
+
+    .heading h6 {
+        font-size: 12px;
+        padding-top: 12px;
+    }
+
+    .flex_box {
+        padding-top: 45px;
+    }
+}

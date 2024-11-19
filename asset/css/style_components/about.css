@@ -1,0 +1,86 @@
+.title_pera p {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    padding-bottom: 25px;
+    color: #808080;
+}
+
+.title_pera {
+    padding-top: 48px;
+    text-align: center;
+}
+
+.top_image {
+    background-color: var(--green_color);
+}
+
+.img_pera {
+    text-align: center;
+}
+
+.img_pera img {
+    padding-bottom: 60px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.about_pera p {
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--white);
+    text-align: center;
+}
+
+.for_about_us {
+    height: 500px;
+}
+
+.img_pera img{
+    margin-top: -170px;
+}
+@media(max-width: 990px){
+    .for_about_us{
+        height: auto;
+    }
+    .img_pera img{
+        margin-top: 0px;
+    }
+}
+@media(max-width: 767px){
+    .for_about_us{
+        height: auto;
+    }
+    .about_heading{
+        display: block;
+    }
+    .img_pera img{
+        margin-top: 0px;
+    }
+    .title_pera{
+        padding-top: 10px;
+    }
+    .title_pera p{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .about_heading{
+        padding-top: 30px;
+    }
+    .about_heading h2{
+        font-size: 20px;
+    }
+    .about_pera{
+        padding: 0px 12px;
+    }
+    .about_pera p{
+        font-size: 10px;
+    }
+    .img_pera img{
+        padding-bottom: 15px;
+    }
+    .for_about_us{
+        height: auto;
+    }
+}

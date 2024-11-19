@@ -1,0 +1,444 @@
+#claim_wrapper {
+
+    margin-top: 120px;
+}
+.bh_img{
+    position: relative;
+}
+.bh_img::after {
+    content: "";
+    position: absolute;
+    background-image: linear-gradient(180deg, #E7EEB0 0%, rgba(255, 255, 255, 0) 90%), url(/asset/images/bg_img.svg);
+    height: 315px;
+    width: 100%;
+    background-size: cover;
+    top: 0;
+    z-index: -1;
+}
+
+.heading {
+    text-align: center;
+    padding-top: 48px;
+}
+
+.heading p {
+    color: var(--green_color);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.heading p span {
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.heading h2 {
+    padding-top: 20px;
+    color: var(--fade_black);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.search_bar {
+    text-align: center;
+    padding-top: 48px;
+}
+
+.search_bar input {
+    width: 100%;
+    max-width: 372px;
+    height: 48px;
+    padding: 18px;
+    border-radius: 8px;
+    border: 1px solid var(--fade_yalow);
+    border-right: unset !important;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: unset;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+
+.fade_yalow input::placeholder {
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    color: #ACACAC !important;
+}
+
+.search_bar button {
+    background-color: var(--green_color);
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 0px 8px 8px 0px;
+    border: unset;
+    height: 48px;
+    line-height: 46px;
+    padding: 0px 30px;
+}
+
+.main_side_bar {
+    padding-top: 72px;
+}
+
+.sidebar ul {
+    padding-left: 0px;
+    padding-top: 24px;
+    padding-bottom: 32px;
+}
+
+.sidebar ul li {
+    line-height: 38px;
+}
+
+/* Hide the default radio button */
+.sidebar input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create custom radio button */
+.sidebar input[type="radio"]+label {
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--fade_black);
+}
+
+/* Style the radio button circle */
+.sidebar input[type="radio"]+label:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #C8C8C8;
+    background-color: white;
+}
+
+/* Style the checked state */
+.sidebar input[type="radio"]:checked+label:after {
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #009899;
+}
+
+.sidebar h3 {
+    color: var(--green_color);
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom: 2px solid #808080;
+    width: fit-content;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+}
+
+/* Hide the default checkbox */
+input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create custom checkbox */
+input[type="checkbox"]+label {
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--fade_black);
+}
+
+/* Style the checkbox box */
+input[type="checkbox"]+label:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    border: 2px solid #C8C8C8;
+    background-color: white;
+}
+
+/* Style the checked state (tick inside the checkbox) */
+input[type="checkbox"]:checked+label:after {
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #009899;
+}
+
+
+/* hospital_card */
+.hospital-card {
+    display: flex;
+}
+
+.left_wrapper {
+    background-color: #F9FBEB;
+    max-width: 640px;
+    width: 100%;
+    border-radius: 24px 0px 0px 24px;
+    padding: 24px 32px;
+}
+
+.bed_availability {
+    background-color: var(--green_color);
+    border-radius: 0px 24px 24px 0px;
+    padding: 36px 34px;
+    text-align: center;
+    width: 100%;
+    max-width: 285px;
+}
+
+.bed_img img {
+    width: 120px;
+}
+
+.bed_img {
+    position: relative;
+}
+
+.bed_img span {
+    position: absolute;
+    left: 43%;
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--green_color);
+}
+
+.bed_availability h6 {
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #F9FBEB;
+}
+
+.bed_availability p {
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #F9FBEB;
+}
+
+.hospital-card .left_wrapper h4 {
+    color: var(--green_color);
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 12px;
+}
+
+.hospital-card .left_wrapper p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #808080;
+}
+
+.footer_section {
+    padding-top: 32px;
+}
+
+.footer_section p img {
+    width: 22px;
+    height: 24px;
+}
+
+.footer_section p {
+    display: flex;
+    gap: 16px;
+    padding-bottom: 16px;
+    font-size: 16px;
+    font-weight: 600 !important;
+    color: #606060 !important;
+    position: relative;
+}
+
+.footer_section p:last-child {
+    padding-bottom: 0px;
+}
+
+.footer_section p .phone::after {
+    content: "";
+    position: absolute;
+    border-left: 2px solid var(--green_color);
+    height: 20px;
+    margin-left: 8px;
+
+}
+
+.footer_section p .phone:last-child::after {
+    border: unset;
+    content: "";
+}
+
+/* Common Dropdown Styles */
+.custom-select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #e9ecb2;
+    /* Light green for "Regions" */
+    color: #606060;
+    /* Light text color */
+    padding: 10px 30px 10px 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-right: 10px;
+    /* Dropdown icon */
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    /* Adjust the position */
+    background-size: 8px;
+    /* Adjust the size */
+}
+
+.regions {
+    background-image: url('/asset/images/region.svg');
+
+}
+
+.custom-select.specialization {
+    background-color: #606060;
+    color: #dcdc98;
+    background-image: url('/asset/images/spect.svg');
+}
+
+/* Remove Default Arrow in WebKit Browsers */
+select::-webkit-appearance {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+select::-ms-expand {
+    display: none;
+    /* Remove default arrow in IE */
+}
+
+
+.mobile_view_only {
+    display: none;
+}
+
+.hospital-card {
+    margin-bottom: 30px;
+}
+
+@media(max-width: 768px) {
+    .sidebar {
+        display: none;
+    }
+
+    .mobile_view_only {
+        display: flex;
+        gap: 16px;
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+
+
+    #claim_wrapper {
+        margin-top: 80px;
+    }
+}
+
+@media(max-width: 767px) {
+    .search_bar input {
+        max-width: 240px;
+    }
+    
+    .hospital-card {
+        margin-bottom: 120px;
+    }
+
+    .main_side_bar {
+        padding-top: 30px;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .for_home {
+        display: none;
+    }
+
+    #claim_wrapper {
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+
+    .hospital-card {
+        display: block;
+        position: relative;
+    }
+
+    .bed_availability {
+        max-width: 100%;
+        display: flex;
+        align-items: end;
+        gap: 20px;
+        border-radius: 20px;
+        position: absolute;
+        margin-top: -40px;
+        z-index: -1;
+    }
+
+    .bed_availability .bed_img img {
+        width: 48px;
+        height: 32px;
+    }
+
+    .left_wrapper {
+        border-radius: 24px;
+    }
+
+    .bed_img span {
+        position: absolute;
+        left: 37% !important;
+        font-size: 10px !important;
+        top: 2px;
+    }
+}
+
+@media(max-width: 575px){
+    #claim_wrapper .main_side_bar{
+        padding-top: 30px;
+    }
+    .search_bar input {
+        max-width: 230px;
+    }
+    .left_wrapper {
+        padding: 24px 15px;
+    }
+    .bh_img::after {
+        height: 130px;
+    }
+}

@@ -1,0 +1,277 @@
+.patient_title p {
+    padding-top: 24px;
+    color: #808080 !important;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0px !important;
+}
+
+.ann_slide {
+    text-align: center;
+}
+
+.ann_slide iframe {
+    border-radius: 8px !important;
+}
+
+#testimonials {
+    padding-top: 60px;
+}
+
+.ann_slide iframe {
+    width: 1070px;
+    height: 528px;
+
+}
+
+.slider_bottom_pera {
+    padding-top: 45px;
+    padding-bottom: 60px;
+}
+
+.slider_bottom_pera p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #606060;
+    text-align: center;
+}
+
+
+/* contact_us_css_start */
+.contact_us_heading {
+    text-align: left !important;
+    position: relative;
+    z-index: 1;
+}
+
+.contact_us_heading p {
+    color: #808080 !important;
+    font-weight: 500;
+    font-size: 24px;
+    padding-top: 24px;
+    letter-spacing: 0px !important;
+    text-transform: capitalize !important;
+
+}
+
+.contact_us_bg {
+    position: relative;
+}
+
+.contact_us_bg::after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: 315px;
+    background: radial-gradient(24.44% 68.35% at 75.56% 50%, rgba(231, 238, 176, 0.25) 0%, #E7EEB0 100%);
+}
+
+.map_section iframe {
+    height: 315px;
+    width: 100%;
+}
+
+.lets_know h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #6D758F;
+}
+
+.lalita_kumar {
+    padding-top: 48px;
+}
+
+.lets_know {
+    width: 100%;
+    max-width: 514px;
+}
+
+.form_section {
+    padding-top: 80px;
+}
+
+.lalita_kumar p {
+    color: #6D758F;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.contact_bx {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.contact_bx .email {
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+    display: flex;
+    gap: 16px;
+    padding: 15px 40px 16px 16px;
+    border: 1px solid #F1F3F7;
+    border-radius: 6px;
+}
+
+.contact_bx .phone {
+    display: flex;
+    gap: 16px;
+    display: flex;
+    gap: 16px;
+    padding: 15px 30px 16px 16px;
+    border: 1px solid #F1F3F7;
+    border-radius: 6px;
+}
+
+.contact_bx .bx_s a {
+    display: block;
+    color: #6D758F;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.contact_bx {
+    padding-top: 30px;
+}
+
+.contact_bx .bx_s label {
+    color: #6D758F;
+    font-weight: 400;
+    font-size: 14px;
+    padding-bottom: 6px;
+}
+
+.Gagan_d {
+    padding-top: 24px !important;
+}
+
+.title_gagn {
+    padding-top: 60px;
+}
+.form_wrapper{
+    box-shadow: 0px 0px 8px 0px #0000001A;
+    padding: 32px;
+    border-radius: 8px;
+    
+}
+.form_wrapper form input{
+    padding: 16px;
+    border-radius: 6px;
+    border: 1px solid #C8C8C8;
+    box-shadow: none;
+    outline: none;
+}
+.form_wrapper form label{
+    color: var(--);
+    font-size: 16px;
+    font-weight: 500;
+}
+.d_flex_for{
+    display: flex;
+   
+    gap: 24px;
+}
+.d_flex_for div{
+    width: 100%;
+}
+.d_flex_for input{
+    width: 100%;
+}
+.send_btn{
+    background-color: var(--green_color);
+    border: unset;
+    color: #ffff;
+    height: 40px;
+    padding: 0px 12px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+.send_btn img{
+    padding-left: 10px;
+   
+}
+.gallery {
+    position: relative;
+}
+.gallery img{
+    position: absolute;
+    top: 55%;
+    left: 6%;
+}
+.form_section{
+    padding-bottom: 60px;
+}
+.map_section{
+    position: relative;
+}
+@media(max-width: 575px) {
+    .ann_slide iframe {
+        width: auto;
+        height: auto;
+
+    }
+
+    .slider_bottom_pera p {
+        font-size: 16px;
+        line-height: 32px;
+    }
+    .map_section iframe{
+        height: auto;
+    }
+    .contact_us_heading{
+        text-align: center !important;
+    }
+    .contact_us_bg::after{
+        background: radial-gradient(56.62% 26.74% at 50% 69.1%, rgba(231, 238, 176, 0.25) 0%, #E7EEB0 100%);
+    }
+    .lets_know h2{
+        font-size: 16px;
+        text-align: center;
+        max-width: 130px;
+        margin: auto;
+        line-height: 20px;
+    }
+    .form_section{
+        padding-top: 50px;
+    }
+    .lalita_kumar p {
+        text-align: center;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .lalita_kumar{
+        padding-top: 10px;
+    }
+    .contact_bx .email{
+        padding: 15px 20px 16px 16px;
+    }
+    .contact_bx .phone{
+        padding: 15px;
+    }
+    .contact_bx{
+        gap: 12px;
+    }
+    .contact_bx .bx_s label{
+        padding-bottom: 3px;
+        font-size: 10px;
+    }
+    .contact_bx .bx_s a{
+        font-size: 10px;
+    }
+    .title_gagn {
+        padding-top: 30px;
+    }
+    .form_wrapper{
+        margin-top: 40px;
+    }
+    .form_wrapper{
+        padding: 16px;
+    }
+    .form_wrapper form label{
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,88 @@
+@charset 'UTF-8';
+/* Slider */
+.slick-loading .slick-list {
+    background: #fff url("./ajax-loader.gif") center center no-repeat;
+}
+
+/* Icons */
+@font-face {
+    font-family: "slick";
+    font-weight: normal;
+    font-style: normal;
+
+    src: url("./fonts/slick.eot");
+    src: url("./fonts/slick.eot?#iefix") format("embedded-opentype"), url("./fonts/slick.woff") format("woff"),
+        url("./fonts/slick.ttf") format("truetype"), url("./fonts/slick.svg#slick") format("svg");
+}
+/* Arrows */
+.slick-prev,
+.slick-next {
+    font-size: 0;
+    line-height: 0;
+    bottom: 0px;
+    display: block;
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    transform: translate(0px);
+    cursor: pointer;
+    border: none;
+    outline: none;
+    position: absolute;
+}
+
+
+.slick-prev:before,
+.slick-next:before {
+    font-family: "FontAwesome"; /* Use FontAwesome */
+    font-size: 25px;
+    line-height: 1;
+    opacity: 0.75;
+    color: #009899;
+    border-radius: 50px;
+    padding: 6px 11px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transition: all 250ms ease-in-out;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+/* Adjust the slick-prev position */
+.slick-prev {
+    right: 20%;
+    top: 45%;
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    z-index: 1;
+    }
+
+.slick-next {
+    left: 20%;
+    top: 45%;
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    
+}
+
+/* Change content to FontAwesome left arrow */
+.slick-prev:before {
+    content: "\f105"; /* FontAwesome left arrow icon */
+}
+
+/* Change content to FontAwesome right arrow */
+.slick-next:before {
+    content: "\f104"; /* FontAwesome right arrow icon */
+}
+
+@media(max-width: 575px){
+    .slick-prev{
+        right: 2%;
+    } 
+    .slick-next{
+        left: 2%;
+    } 
+}
